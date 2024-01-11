@@ -1,0 +1,7 @@
+.table-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 250px));
+  justify-content: center;
+  row-gap: 60;
+  column-gap: 10px;
+}
