@@ -23,8 +23,13 @@ export default function Home() {
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
+    const apiURL = process.env.NEXT_PUBLIC_GPUSER_API_URL;
+    if (!apiURL) {
+      console.error('NEXT_PUBLIC_GPUSER_API_URL is not defined');
+      return;
+    }
     const interval = setInterval(() => {
-      fetch(process.env.NEXT_PUBLIC_GPUSER_API_URL)
+      fetch(apiURL)
         .then((response) => response.json())
         .then((data) => {
           setData(data);
