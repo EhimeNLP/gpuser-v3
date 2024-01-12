@@ -24,7 +24,7 @@ export default function Home() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch('http://127.0.0.1:5000')
+      fetch(process.env.NEXT_PUBLIC_GPUSER_API_URL)
         .then((response) => response.json())
         .then((data) => {
           setData(data);
