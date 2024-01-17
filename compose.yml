@@ -18,14 +18,14 @@ services:
       context: .
       dockerfile: Dockerfile.frontend
       args:
-        NEXT_PUBLIC_GPUSER_API_URL: http://localhost:${GPUSER_PORT}/api
+        NEXT_PUBLIC_GPUSER_API_URL: http://localhost:${GPUSER_PORT:?err}/api
     depends_on:
       - backend
   
   nginx:
     image: nginx:latest
     ports:
-      - "${GPUSER_PORT}:80"
+      - "${GPUSER_PORT:?err}:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
