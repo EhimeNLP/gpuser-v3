@@ -4,6 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile.backend
       args:
+        # if changing the port, also change it in the nginx.conf
         PORT: 5000
     env_file:
       - backend/.env
