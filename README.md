@@ -16,4 +16,11 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 # Author
 
-* t-ohtsuka89
+- 大塚 琢生
+- ohtsuka@ai.cs.ehime-u.ac.jp
+- 山内洋輝
+- /
+- 樽本空宙
+- /
+- 宮田莉奈
+- /
