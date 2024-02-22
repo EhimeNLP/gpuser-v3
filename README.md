@@ -14,6 +14,10 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 ## Usage
 
+```bash
+make deploy
+```
+
 ## Note
 
 ## Author
