@@ -10,6 +10,8 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 ## Requirement
 
+- Docker
+
 ## Installation
 
 ## Usage
