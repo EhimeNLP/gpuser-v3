@@ -16,6 +16,16 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 ## Usage
 
+### 環境変数の設定
+
+```bash
+cp .env.example .env
+```
+
+### 起動
+
+.envファイルで設定したポート番号でアクセスできます（デフォルト：<http://localhost:8000>）
+
 ```bash
 make deploy
 ```
