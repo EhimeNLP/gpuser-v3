@@ -1,2 +1,10 @@
-.git/
-node_modules/
+**
+!app/**
+!public/**
+!next-env.d.ts
+!next.config.js
+!package.json
+!package-lock.json
+!postcss.config.js
+!tailwind.config.ts
+!tsconfig.json
