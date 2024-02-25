@@ -4,7 +4,7 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 ## DEMO
 
-![スクリーンショット](https://github.com/t-ohtsuka89/gpuser-v3/assets/102138393/abf28151-f72d-4015-b51b-ad070abdc6f4)
+![GPUser](https://user-images.githubusercontent.com/102138393/215088013-44f57c6f-f820-4a99-b4e2-48f2fa334e7e.png)
 
 ## Features
 
