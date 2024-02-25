@@ -11,7 +11,7 @@ interface GPUStatus {
 }
 
 interface ServerStatus {
-  server_ip: string;
+  hostname: string;
   status: GPUStatus[];
   success: boolean;
 }

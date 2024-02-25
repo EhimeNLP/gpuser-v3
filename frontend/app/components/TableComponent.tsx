@@ -8,7 +8,7 @@ interface GPUStatus {
 }
 
 interface ServerStatus {
-  server_ip: string;
+  hostname: string;
   status: GPUStatus[];
   success: boolean;
 }
@@ -19,7 +19,7 @@ type Props = {
 
 const TableComponent = ({ serverStatus }: Props) => {
   if (!serverStatus.success) {
-    return <div className='error-message'>&quot;{serverStatus.server_ip}&quot; からのデータ取得に失敗しました。</div>;
+    return <div className='error-message'>&quot;{serverStatus.hostname}&quot; からのデータ取得に失敗しました。</div>;
   }
 
   let allEmptyPid = true;
@@ -46,7 +46,7 @@ const TableComponent = ({ serverStatus }: Props) => {
   return (
     <div className='table-component'>
       <h2>
-        {captionElement} {serverStatus.server_ip}
+        {captionElement} {serverStatus.hostname}
       </h2>
       <table className='gpu-status-table table table-striped'>
         <thead>
