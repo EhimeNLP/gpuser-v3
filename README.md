@@ -20,6 +20,7 @@ EhimeNLP（二宮研）のGPUサーバーの使用状況を確認するための
 
 ```bash
 cp .env.example .env
+cp backend/.env.example backend/.env
 ```
 
 ### 起動
