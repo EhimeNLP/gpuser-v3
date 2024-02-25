@@ -1,1 +1,19 @@
-.env
+**
+
+# frontend
+!frontend/app/**
+!frontend/public/**
+!frontend/next-env.d.ts
+!frontend/next.config.js
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/postcss.config.js
+!frontend/tailwind.config.ts
+!frontend/tsconfig.json
+
+# backend
+!backend/instance/**
+!backend/scripts/**
+!backend/application.py
+!backend/requirements.txt
+!backend/settings.py
