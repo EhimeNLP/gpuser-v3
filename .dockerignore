@@ -17,3 +17,4 @@
 !backend/application.py
 !backend/requirements.txt
 !backend/settings.py
+!backend/ssh_manager.py
